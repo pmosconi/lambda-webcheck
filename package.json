@@ -1,0 +1,28 @@
+{
+  "name": "lambda-web-check",
+  "version": "1.0.0",
+  "description": "AWS Lambda function to check web site response and write custom CloudWatch metric for alarm management",
+  "main": "LambdaWebCheck.js",
+  "dependencies": {
+    "request": "^2.73.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pmosconi",
+  "license": "MIT",
+  "devDependencies": {
+    "aws-sdk": "^2.4.6",
+    "node-lambda": "^0.8.6"
+  },
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/pmosconi/lambda-webcheck"
+  },
+    "keywords": [
+    "AWS",
+    "Lambda",
+    "CloudWatch",
+    "check web site responding"
+  ]
+}
