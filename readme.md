@@ -4,10 +4,10 @@
 *LambdaWebCheck.js* is a simple Node.js function that makes an http get request and logs the response to a custom *AWS CloudWatch* metric.  The metric can then be used to setup and raise an alarm if the url is not responding. The function is automatically triggered at a predefined interval or schedule by AWS CloudWatch Events infrastructure.
 
 The setup procedure involves:
-    * configuring the code and preparing a zip package for upload to AWS Lambda;
-    * creating an AWS IAM execution role with permissions on CloudWatch;
-    * creating, configuring and testing the AWS Lambda function;
-    * creating a CloudWatch alarm based on the function metrics.
+* configuring the code and preparing a zip package for upload to AWS Lambda;
+* creating an AWS IAM execution role with permissions on CloudWatch;
+* creating, configuring and testing the AWS Lambda function;
+* creating a CloudWatch alarm based on the function metrics.
 
 In detail:
 
